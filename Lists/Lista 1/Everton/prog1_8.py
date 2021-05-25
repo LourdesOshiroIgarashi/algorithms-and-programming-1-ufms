@@ -1,0 +1,27 @@
+#DECLARANDO A VARIÁVEL
+lista = []
+pessoas = []
+soma = 0
+cont = 0
+#ENTRADA DE DADOS
+for i in range(30):
+    lista = list(map(float, input('DIGITE A IDADE E A ALTURA: ').split()))
+    pessoas.append(lista)
+    lista = []
+
+#PROCESSAMENTO
+#CALCULAR A MÉDIA DAS ALTURAS
+for i in range(0, 30):
+    soma = soma + pessoas[i][1] #SOMA DE TODAS AS ALTURAS
+media_altura = soma/30 #MÉDIA
+
+#CONTAGEM DE PESSOAS COM MAIS DE 13 ANOS COM ALTURA INFERIOR A MÉDIA DE ALTURA
+for i in range(0, 30):
+    if pessoas[i][1] < media_altura and pessoas[i][0] > 13:
+        cont = cont + 1
+
+#print(soma)
+#print(pessoas)
+#print(cont)
+#SAÍDA DE DADOS NA TELA
+print(f"A quantidade de pessoas que possuem mais de 13 anos e tem a altura inferior a média das alturas é {cont}")
