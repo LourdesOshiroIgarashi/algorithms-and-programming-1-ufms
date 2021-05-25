@@ -1,0 +1,7 @@
+variaveis = []
+for i in range(10):
+  variaveis.append(float(input()))
+
+variaveis.reverse()
+
+print(variaveis)
