@@ -1,0 +1,11 @@
+entrada = int(input())
+serie = []
+
+for i in range(0,51):
+  serie.append(entrada-i)
+
+#o primeiro com o último elemento sempre dará a mesma resposta
+x = -1
+for i in range(25): #Se são 50 termos será 1 + 50;; 2 + 49;; 3 + 48 ;; >> perfazendo 25 pares
+  print(serie[i]+serie[x])
+  x = x -1
