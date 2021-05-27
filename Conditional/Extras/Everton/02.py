@@ -6,5 +6,5 @@ x = float(input())
 
 y = (x**2)**(1/2)
 
-
+ 
 print("|{:.2f}| = {:.2f}".format(x,y))
