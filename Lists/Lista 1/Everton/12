@@ -1,7 +1,7 @@
 entrada = int(input())
 serie = []
 
-for i in range(0,51):
+for i in range(0,50):
   serie.append(entrada-i)
 
 #o primeiro com o último elemento sempre dará a mesma resposta
