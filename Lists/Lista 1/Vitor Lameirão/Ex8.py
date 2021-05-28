@@ -7,16 +7,15 @@ def soma(lista):
 #Entrada e processamento
 idades = []
 alturas = []
-for i in range(2):
+for i in range(30):
     print("Digite a idade e altura da pessoa {}.".format(i+1))
     x = int(input("Idade: "))
     y = float(input("Altura: "))
     idades.append(x)
     alturas.append(y)
 
-media_alt = soma(alturas)/2
-c = 0 
-for i in range(2):
+media_alt = soma(alturas)/30
+for i in range(30):
     if idades[i] > 13 and media_alt > alturas[i]:
         c=+1
 
