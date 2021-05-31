@@ -1,0 +1,13 @@
+# Removendo os caracteres existentes no início e fim de uma palavra
+
+# digite, por exemplo, a palavra "   estudar  ".
+palavra = input()
+
+print("*", palavra, "*")
+
+# strip() devolve uma "nova" palavra, sem 
+# os espaços que por ventura existirem no 
+# início e no final da palavra
+nova_palavra = palavra.strip()
+
+print("*", nova_palavra, "*")
