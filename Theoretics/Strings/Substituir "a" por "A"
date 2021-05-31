@@ -1,0 +1,8 @@
+texto = input("Digite um texto qualquer: ")
+
+# replace() substituindo x ocoorências
+# de um determinado caracter
+x = 10
+texto = texto.replace('a', "A", x) 
+
+print(texto)
