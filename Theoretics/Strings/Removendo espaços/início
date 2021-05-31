@@ -1,0 +1,12 @@
+# Removendo os caracteres existentes no início de uma palavra
+# digite, por exemplo, a palavra "   estudar  ".
+palavra = input()
+
+print(palavra)
+
+# lstrip() devolve uma "nova" palavra, sem 
+# os espaços que por ventura existirem no 
+# início da palavra
+nova_palavra = palavra.lstrip()
+
+print(nova_palavra)
