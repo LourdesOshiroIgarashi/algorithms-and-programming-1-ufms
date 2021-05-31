@@ -1,0 +1,12 @@
+texto = input("Digite um texto qualquer: ")
+
+# replace() retorna uma nova string
+# por isso é preciso armazenar seu valor
+# de retorno 
+#texto_novo = texto.replace(texto[0], "X")
+texto = texto.replace(texto[0], "X")
+#texto = texto.replace(texto[0], "X")  # caso você queira modificar a variável original
+
+print("Texto original: ", texto)
+print("Texto alterado: ", texto)
+#print("Texto alterado: ", novo_texto)
