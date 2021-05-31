@@ -1,0 +1,2 @@
+# Os métodos lstrip() e rstrip() removem os espaços em branco existentes no início e no final de uma string, respectivamente. 
+# O método strip() remove caracteres do início e fim.
