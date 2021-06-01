@@ -7,6 +7,6 @@ for i in range(15):
 print(Lista)
 
 for i in Lista:
-    soma += 1
+    soma += i
 
 print(soma/15)
