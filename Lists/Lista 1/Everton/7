@@ -15,3 +15,17 @@ print('Sequência 1:', numeros1)
 print('Sequência 2:', numeros2)
 print('Itercalação da Sequência 1 e Sequência 2: ')
 print(intercalacao)
+#####OR
+
+a = []
+b = []
+c = []
+for i in range(5):
+    a.append(int(input()))
+    b.append(int(input()))
+
+for i in range(5):
+  c.append(a[i])
+  c.append(b[i])
+
+print(c)
