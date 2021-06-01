@@ -13,6 +13,6 @@ for i in medias:
 
 print("Médias")
 for i in range(6):
-    print("Média do aluno {}: {}".format(i + 1, round(medias[i],3)))
+    print("Média do aluno {0}: {1}".format(i + 1, round(medias[i],3)))
 
-print("Existem {} alunos com média maior ou igual a 7.0".format(maiorMedia))
+print("Existem {0} alunos com média maior ou igual a 7.0".format(maiorMedia))
