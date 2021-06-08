@@ -1,4 +1,4 @@
-num = int(input("digite o numero de astericos presentes na base da figura:"))
+num = 7
 x = 1
 
 while num >= 1:
